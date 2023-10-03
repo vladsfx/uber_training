@@ -348,3 +348,37 @@ nav
             li
                 &::before
                     background: url('../icons/checks/check_red.svg') center (center / cover) no-repeat
+
+// Секция Map
+.map
+    height: 716px
+    background-color: $bg_color_black
+    .container
+        position: relative
+        height: 100%
+        padding: 48px 0 22px 0
+        background: url('../img/bg/world_bg.png') center (center / cover) no-repeat
+    &_label
+        @include label($color_text_black, $bg_color_white )
+    &_title
+        margin-top: 26px
+        @include title($color_text_white)
+    &_subtitle
+        @include subtitle($color_text_white)
+    &_btn
+        display: block
+        position: absolute
+        bottom: 22px
+        left: 50%
+        transform: translateX(-50%)
+        padding: 25px 15px
+        color: #1FBAD6
+        text-align: center
+        font-size: 15px
+        font-weight: 400
+        text-transform: uppercase
+        background-color: rgba(0, 0, 0, 0.0)
+        border: none
+        transition: .5s all
+        &:hover
+            background-color: rgba(169, 169, 169, 0.1)
