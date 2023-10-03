@@ -1,0 +1,33 @@
+@mixin label($color_text, $bg_color)
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 113px
+    height: 24px
+    color: $color_text
+    font-size: 11px
+    font-weight: 400
+    text-transform: uppercase
+    background-color: $bg_color
+    margin: 0 auto
+    line-height: 0
+
+@mixin title($color_text)
+    text-align: center
+    color: $color_text
+    font-size: 38px
+    font-weight: 700
+    text-transform: uppercase
+    line-height: 1
+
+@mixin subtitle($color_text)
+    color: $color_text
+    text-align: center
+    font-size: 17px
+    font-weight: 400
+    margin-top: 10px
+
+@mixin btn_hover
+    &:hover
+        background-image: none
+        background-color: $color_blue
