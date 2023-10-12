@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css" />
 		<link rel="stylesheet" href="css/fonts.css" />
@@ -19,9 +20,9 @@
 				<div class="container">
 					<ul class="menu">
 						<li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
-						<li class="menu_item"><a href="#" class="menu_link">Со своим автомобилем</a></li>
-						<li class="menu_item"><a href="#" class="menu_link">На автомобиле компании</a></li>
-						<li class="menu_item"><a href="#" class="menu_link">Требования</a></li>
+						<li class="menu_item"><a href="#your_auto" class="menu_link">Со своим автомобилем</a></li>
+						<li class="menu_item"><a href="#auto_company" class="menu_link">На автомобиле компании</a></li>
+						<li class="menu_item"><a href="#requirement" class="menu_link">Требования</a></li>
 						<li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
 						<li class="menu_item"><a href="#" class="menu_link">Оставить заявку</a></li>
 					</ul>
@@ -39,7 +40,7 @@
 					<div class="row">
 						<div class="col-6 col-md-4 offset-md-1">
 							<a href="#" class="subheader_logo"><img src="img/logo/Uber_logo.png" alt="Uber" /></a>
-							<div class="xs-hidden subheader_official">Официальный партнер Uber в Москве</div>
+							<div class="subheader_official">Официальный партнер Uber в Москве</div>
 						</div>
 						<div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
 							<div class="subheader_call">Звоните нам ежедневно</div>
@@ -263,35 +264,34 @@
 				<div class="row">
 					<div class="col-md-6">
 						<div class="require_block">
-							<div class="require_head">УСЛОВИЯ: со своим авто:</div>
+							<div class="require_head" id="your_auto">УСЛОВИЯ: со своим авто:</div>
 							<ul class="require_list">
 								<li>Подключаем к системе UBER под 10%.</li>
 								<li>Ни каких взносов 0%!</li>
 								<li>Можем подключать удаленно без приезда в офис</li>
 								<li>ИП не требуется</li>
-								<li>Заказы распределяются без учета рейтинга ближай-<br />шим водителям</li>
+								<li>Заказы распределяются без учета рейтинга ближайшим водителям</li>
 								<li>Работа только по безналичному расчету</li>
-								<li>Деньги перечисляем на карту водителю или наличны-<br />ми в офис</li>
+								<li>Деньги перечисляем на карту водителю или наличными в офис</li>
 							</ul>
 							<div class="require_descr">
-								В день заработок составляет 7000-12000р + бонус 3000т <br />
-								рублей
+								В день заработок составляет 7000-12000р + бонус 3000т рублей
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="require_block">
-							<div class="require_head">УСЛОВИЯ: на авто компании:</div>
+							<div class="require_head" id="auto_company">УСЛОВИЯ: на авто компании:</div>
 							<ul class="require_list">
 								<li>Предоставляем авто без залога</li>
 								<li>Без ежедневных выплат по аренде</li>
-								<li>Среда пятница и суббота работа на компанию осталь- ные дни вы работаете на себя</li>
+								<li>Среда пятница и суббота работа на компанию остальные дни вы работаете на себя</li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6" id="requirement">
 						<div class="require_block require_block_nmb warning">
-							<div class="require_head">ТРЕБОВАНИЕ:</div>
+							<div class="require_head" >ТРЕБОВАНИЕ:</div>
 							<ul class="require_list">
 								<li>Наличие автомобиля без рекламы</li>
 								<li>Автомобиль не должен быть желтый и не с желтыми номерами</li>
@@ -328,66 +328,55 @@
 		</section>
 
 		<footer>
-			<ul class="social">
-				<li>
-					<!-- <a href="#"><div class="social_img"><img src="img/brands/facebook.png" alt="fscebook" /></div></a> -->
-					<a href="#"
-						><div class="social_img"><i class="fa fa-facebook" aria-hidden="true"></i></div
-					></a>
-				</li>
-				<li>
-					<a href="#"
-						><div class="social_img"><i class="fa fa-twitter" aria-hidden="true"></i></div
-					></a>
-				</li>
-				<li>
-					<a href="#"
-						><div class="social_img"><i class="fa fa-linkedin" aria-hidden="true"></i></div
-					></a>
-				</li>
-				<li>
-					<a href="#"
-						><div class="social_img"><i class="fa fa-instagram" aria-hidden="true"></i></div
-					></a>
-				</li>
-			</ul>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 offset-md-3">
-						<div class="line"></div>
-						<ul class="list_head">
-							<li><a href="#">на главную</a></li>
-							<li><a href="#">города</a></li>
-							<li><a href="#">для водителей</a></li>
-						</ul>
-						<ul class="list_subhead">
-							<li><a href="#">центр поддержки</a></li>
-							<li><a href="#">вакансии</a></li>
-							<li><a href="#">разработчики</a></li>
-							<li><a href="#">блог</a></li>
-							<li><a href="#">о нас</a></li>
-						</ul>
-						<div class="lang"><a href="#">русский</a></div>
+			<div class="footer_divider"></div>
+			<div class="footer_wrapper">
+				<div>
+					<div class="footer_social">
+						<a href="#" class="footer_social_item">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+						<a href="#" class="footer_social_item">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+						<a href="#" class="footer_social_item">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</a>
+						<a href="#" class="footer_social_item">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+				<div>
+					<div class="footer_links">
+						<div class="footer_links_main">
+							<a href="#">на главную</a>
+							<a href="#">города</a>
+							<a href="#">для водителей</a>
+						</div>
+						<div class="footer_links_sub">
+							<a href="#">центр поддержки</a>
+							<a href="#">вакансии</a>
+							<a href="#">разработчики</a>
+							<a href="#">блог</a>
+							<a href="#">о нас</a>
+						</div>
+						<a href="#" class="footer_links_lang">русский</a>
+					</div>
+				</div>
+				<div>
+					<div class="footer_mobile">
+						<a href="#">
+							<img src="img/brands/app_store.png" alt="App store">
+						</a>
+						<a href="#">
+							<img src="img/brands/google_play.png" alt="Google play">
+						</a>
+						<a href="#">
+							<img src="img/brands/windows_store.png" alt="Windows store">
+						</a>
 					</div>
 				</div>
 			</div>
-			<ul class="shops">
-				<li>
-					<a href="#"
-						><div class="shops_img"><img src="img/brands/app_store.png" alt="fscebook" /></div
-					></a>
-				</li>
-				<li>
-					<a href="#"
-						><div class="shops_img"><img src="img/brands/google_play.png" alt="twitter" /></div
-					></a>
-				</li>
-				<li>
-					<a href="#"
-						><div class="shops_img"><img src="img/brands/windows_store.png" alt="linkedin" /></div
-					></a>
-				</li>
-			</ul>
 		</footer>
 
 		<script src="js/script.js"></script>
